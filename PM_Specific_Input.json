@@ -1,0 +1,24 @@
+{" cardPaymentMethodSpecificInput":
+"{
+"authorizationMode":"FINAL_AUTHORIZATION",
+"initialSchemeTransactionId": "1",
+"recurring":"{
+"recurringPaymentSequenceIndicator":"First"},
+"skipAuthentication":" true",
+"token":" 0ca037cc-9079-4df7-8f6f-f2a3443ee521",
+"tokenize":" true",
+"transactionChannel":" ECOMMERCE",
+"unscheduledCardOnFileRequestor":" merchantInitiated",
+"unscheduledCardOnFileSequenceIndicator":" first",
+"paymentProductId":" 840",
+"card":"{
+"cardholderName":" varun",
+"cardNumber":" 4111111111111111",
+"expiryDate":" 22dec2022",
+"cvv":" 123"}
+}
+" order":"{
+"amountOfMoney":"{
+"amount":" 1000","currencyCode":" EUR"
+}
+}

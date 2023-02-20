@@ -1,0 +1,24 @@
+{
+"cardPaymentMethodSpecificInput": 
+    {
+    "authorizationMode": "SALE",
+    "paymentProductId": 3
+    },
+"order":
+    {
+    "amountOfMoney":    
+        {
+        "amount": 10000,
+        "currencyCode": "EUR"
+        },
+    "references": 
+        {
+        "merchantReference": "Yeah"
+        }
+    },  
+"hostedCheckoutSpecificInput": 
+    {
+    "locale": "FR_fr",
+    "returnUrl": "https://google.com"
+    }
+}

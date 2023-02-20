@@ -1,0 +1,122 @@
+{
+	"cardPaymentMethodSpecificInput": {
+		"authorizationMode": "SALE",
+		"threeDSecure": {
+			"challengeCanvasSize": "full-screen",
+			"skipAuthentication": false,
+			"exemptionRequest": "none"
+		},
+		"transactionChannel": "ECOMMERCE",
+		"paymentProductId": "1",
+		"skipAuthentication": "false",
+		"tokenize": "true",
+		"requiresApproval": "false",
+		"card": {
+			"cardholderName": "Raphael Magoteau",
+			"cardNumber": "4874970686672022",
+			"expiryDate": "1232",
+			"cvv": "123"
+		},
+		"returnUrl": ""
+
+	},
+	"order": {
+		"amountOfMoney": {
+			"currencyCode": "EUR",
+			"amount": 91800
+		},
+		"customer": {
+			"billingAddress": {
+				"name": {
+					"title": "Miss1",
+					"firstName": "Road1",
+					"surname": "Runner1"
+				},
+				"houseNumber": "15",
+				"street": "Leonardo da Vincilaan 3",
+				"additionalInfo": "adress line 2",
+				"city": "Zaventem",
+				"zip": "1930",
+				"state": "",
+				"countryCode": "BE"
+			},
+			"shippingAddress": {
+				"name": {
+					"title": "Miss",
+					"firstName": "Road",
+					"surname": "Runner"
+				},
+				"houseNumber": "1",
+				"street": "Leonardo da Vincilaan 3",
+				"additionalInfo": "adress line 2",
+				"city": "Zaventem",
+				"zip": "1930",
+				"state": "",
+				"countryCode": "BE"
+			},
+			"device": {
+				"acceptHeader": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
+				"browserData": {
+					"colorDepth": 24,
+					"javaEnabled": true,
+					"screenHeight": "1080",
+					"screenWidth": "1920"
+				},
+				"ipAddress": "40.91.241.131",
+				"locale": "fr-BE",
+				"timezoneOffsetUtcMinutes": "0",
+				"userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36"
+			}
+		},
+		"references": {
+			"merchantReference": "S2S_ORD-{{$timestamp}}"
+		},
+		"shoppingCart": {
+			"items": [{
+					"amountOfMoney": {
+						"amount": 1000,
+						"currencyCode": "EUR"
+					},
+					"invoiceData": {
+						"description": "Nintendo eShop Gift Card [Digital Code]"
+					},
+					"orderLineDetails": {
+						"productName": "Nintendo eShop Gift Card [Digital Code]",
+						"productPrice": 826,
+						"quantity": 1,
+						"taxAmount": 174
+					}
+				},
+				{
+					"amountOfMoney": {
+						"amount": 77900,
+						"currencyCode": "EUR"
+					},
+					"invoiceData": {
+						"description": "Xiaomi Mi 11 - Smartphone 256GB, 8GB RAM, Dual Sim, Horizon Blue"
+					},
+					"orderLineDetails": {
+						"discountAmount": 1000,
+						"productName": "Xiaomi Mi 11 - Smartphone 256GB, 8GB RAM, Dual Sim, Horizon Blue",
+						"productPrice": 78900,
+						"quantity": 1
+					}
+				},
+				{
+					"amountOfMoney": {
+						"amount": 12900,
+						"currencyCode": "EUR"
+					},
+					"invoiceData": {
+						"description": "Xiaomi Amazfit GTS Montre Intelligente Gris AMOLED 4,19 cm"
+					},
+					"orderLineDetails": {
+						"productName": "Xiaomi Amazfit GTS Montre Intelligente Gris AMOLED 4,19 cm",
+						"productPrice": 12900,
+						"quantity": 1
+					}
+				}
+			]
+		}
+	}
+}

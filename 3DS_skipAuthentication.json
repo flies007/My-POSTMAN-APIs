@@ -1,0 +1,78 @@
+{
+    "cardPaymentMethodSpecificInput": {
+        "authorizationMode": "SALE",
+        "returnUrl": "https://secure.ogone.com/ncol/test/displayparams.asp",
+        "threeDSecure": {
+            "redirectionData": {
+                "returnUrl": "https://secure.ogone.com/ncol/test/displayparams.asp"
+            },
+            "skipAuthentication": true
+        },
+        "token": "5d008791-713f-418f-9fda-1fe86bab16bb",
+        "transactionChannel": "ECOMMERCE",
+        "unscheduledCardOnFileRequestor": "merchantInitiated",
+        "unscheduledCardOnFileSequenceIndicator": "subsequent"
+    },
+    "order": {
+        "amountOfMoney": {
+            "amount": 91800,
+            "currencyCode": "EUR"
+        },
+        "references": {
+            "merchantReference": "S2S_TOKEN-{{$timestamp}}",
+            "invoiceData": {
+                "invoiceNumber": "000000123",
+                "invoiceDate": "20140306191500"
+            },
+            "descriptor": "MERCHANT_DESCRIPTOR",
+        },
+        "shoppingCart": {
+            "items": [
+                {
+                    "amountOfMoney": {
+                        "amount": 1000,
+                        "currencyCode": "EUR"
+                    },
+                    "invoiceData": {
+                        "description": "Nintendo eShop Gift Card [Digital Code]"
+                    },
+                    "orderLineDetails": {
+                        "productName": "Nintendo eShop Gift Card [Digital Code]",
+                        "productPrice": 826,
+                        "quantity": 1,
+                        "taxAmount": 174
+                    }
+                },
+                {
+                    "amountOfMoney": {
+                        "amount": 77900,
+                        "currencyCode": "EUR"
+                    },
+                    "invoiceData": {
+                        "description": "Xiaomi Mi 11 - Smartphone 256GB, 8GB RAM, Dual Sim, Horizon Blue"
+                    },
+                    "orderLineDetails": {
+                        "discountAmount": 1000,
+                        "productName": "Xiaomi Mi 11 - Smartphone 256GB, 8GB RAM, Dual Sim, Horizon Blue",
+                        "productPrice": 78900,
+                        "quantity": 1
+                    }
+                },
+                {
+                    "amountOfMoney": {
+                        "amount": 12900,
+                        "currencyCode": "EUR"
+                    },
+                    "invoiceData": {
+                        "description": "Xiaomi Amazfit GTS Montre Intelligente Gris AMOLED 4,19 cm"
+                    },
+                    "orderLineDetails": {
+                        "productName": "Xiaomi Amazfit GTS Montre Intelligente Gris AMOLED 4,19 cm",
+                        "productPrice": 12900,
+                        "quantity": 1
+                    }
+                }
+            ],
+        }
+    }
+}
